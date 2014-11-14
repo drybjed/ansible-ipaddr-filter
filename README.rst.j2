@@ -112,10 +112,10 @@ contain only values that you are querying for.
 Types of queries include:
 
 - query by name: ``ipaddr('address')``, ``ipv4('network')``;
-- query by CIDR range: ``ipaddr('fe80::/10')``, ``ipv6('2001:db8::/32')``;
+- query by CIDR range: ``ipaddr('192.168.0.0/24')``, ``ipv6('2001:db8::/32')``;
 - query by index number: ``ipaddr('1')``, ``ipaddr('-1')``;
 
-If a query type is not recognized, Ansible will rais an error.
+If a query type is not recognized, Ansible will raise an error.
 
 
 Getting information about hosts and networks
