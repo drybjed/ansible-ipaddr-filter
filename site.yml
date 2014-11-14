@@ -1,0 +1,9 @@
+---
+
+- hosts: localhost
+
+  tasks:
+
+  - name: Generate README.rst
+    template: src={{ inventory_dir }}/README.rst.j2 dest={{ inventory_dir }}/README.rst
+
